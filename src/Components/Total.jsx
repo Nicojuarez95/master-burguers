@@ -30,7 +30,7 @@ export default function Total() {
     const productItems = basket
       .map((item) => `•x${item.quantity} ${item.name}`)
       .join('\n');
-    const shippingCost = 200;
+    const shippingCost = 300;
     const totalPrice = accounting.formatMoney(total + shippingCost, '$');
     const message = `¡Hola! Quiero encargar los siguientes productos:\n\n${productItems}\n\nTotal: ${totalPrice} (Incluyendo costo de envío)\n\nDirección de envío: ${shippingData.address};\n\nComentario: ${shippingData.comentario}`;
 
