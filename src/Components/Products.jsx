@@ -28,7 +28,7 @@ const products = [
     id: 1,
     name: "Lomito clasico",
     productType: "Lomito",
-    price: 1600,
+    price: 1700,
     rating: 4.5,
     quantity: 1,
     image: lomoClasico,
@@ -38,7 +38,7 @@ const products = [
     id: 2,
     name: "Lomito Roque",
     productType: "Lomito",
-    price: 1700,
+    price: 1800,
     rating: 4.5,
     quantity: 1,
     image: lomoRoque,
@@ -48,7 +48,7 @@ const products = [
     id: 3,
     name: "Lomo estilo americano",
     productType: "Lomito",
-    price: 1700,
+    price: 1800,
     rating: 4.5,
     quantity: 1,
     image: lomoAmericano,
@@ -58,7 +58,7 @@ const products = [
     id: 4,
     name: "Americano",
     productType: "Sanguche",
-    price: 1400,
+    price: 1500,
     rating: 4.5,
     quantity: 1,
     image: americano,
@@ -68,7 +68,7 @@ const products = [
     id: 5,
     name: "Argentino",
     productType: "Sanguche",
-    price: 1400,
+    price: 1500,
     rating: 4.5,
     quantity: 1,
     image: argentino,
@@ -78,7 +78,7 @@ const products = [
     id: 6,
     name: "Queso Azul",
     productType: "Sanguche",
-    price: 1400,
+    price: 1500,
     rating: 4.5,
     quantity: 1,
     image: quesoazul,
@@ -88,7 +88,7 @@ const products = [
     id: 7,
     name: "Orale",
     productType: "Sanguche",
-    price: 1400,
+    price: 1500,
     rating: 4.5,
     quantity: 1,
     image: orale,
@@ -97,7 +97,7 @@ const products = [
   {
     id: 8,
     name: "Pollo Americano",
-    productType: "Milanesa",
+    productType: "pollo rebozado",
     price: 1400,
     rating: 4.5,
     quantity: 1,
@@ -107,11 +107,11 @@ const products = [
   {
     id: 9,
     name: "Mediterraneo",
-    productType: "Milanesa",
+    productType: "pollo rebozado",
     price: 1400,
     rating: 4.5,
     quantity: 1,
-    image: polloAmericano,
+    image: mediterraneo,
     description: "Pan brioche/Pollo tiernizado frita/Lechuga/Tomate/Queso tybo/Jamon",
   },
 ];
@@ -144,7 +144,7 @@ export default function Products() {
               <MenuItem value="">Todo el menú</MenuItem>
               <MenuItem value="Lomito">Lomito</MenuItem>
               <MenuItem value="Sanguche">Carne Desmenuzada</MenuItem>
-              <MenuItem value="Milanesa">Milanesa</MenuItem>
+              <MenuItem value="pollo rebozado">Pollo rebozado</MenuItem>
               {/* Agrega más opciones de categorías aquí */}
               
             </Select>
