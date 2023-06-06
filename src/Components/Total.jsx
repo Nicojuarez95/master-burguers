@@ -69,6 +69,7 @@ export default function Total() {
             </div>
             <h5 className="totalProductos">TOTAL DE PRODUCTOS: {basket.reduce((total, item) => total + item.quantity, 0)}</h5>
             <h5 className="totalCarrito">{accounting.formatMoney(total, '$')}</h5>
+            <h6 style={{fontSize:".5rem"}}>sin costo de envio</h6>
             <Button
               type="submit"
               variant="contained"
