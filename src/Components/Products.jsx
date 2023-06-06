@@ -42,7 +42,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: lomoRoque,
-    description: "Pan arabe, lomo, roquefort, cebolla caramelizada, lechuga, tomate",
+    description: "Pan arabe, lomo, roquefort, cebolla caramelizada, lechuga, tomate.",
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: lomoAmericano,
-    description: "Pan arabe, lomo, roquefort, cebolla caramelizada, lechuga, tomate",
+    description: "Pan arabe/ lomo / chedar / cebolla caramelizada / tomate / huevo / barbacoa.",
   },
   {
     id: 4,
@@ -62,7 +62,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: americano,
-    description: "Pan brioche/Carne desmenuzada/Panceta/Queso cheddar/Cebolla caramelizada/Barbacoa",
+    description: "Pan brioche / Carne desmenuzada / Panceta / Queso cheddar / Cebolla caramelizada/Barbacoa.",
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: argentino,
-    description: "Pan brioche/Carne desmenuzada/ Tomate/ Lechuga/ Queso Tybo/ Salsa criolla",
+    description: "Pan brioche / Carne desmenuzada / Tomate / Lechuga / Queso Tybo / Salsa criolla.",
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: quesoazul,
-    description: "Pan brioche/ Carne desmenuzada/ queso Roquefort/ hongos salteados/cebolla caramelizada",
+    description: "Pan brioche / Carne desmenuzada / queso Roquefort / hongos salteados / cebolla caramelizada.",
   },
   {
     id: 7,
@@ -92,7 +92,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: orale,
-    description: "Pan brioche/Carne desmenuzada/Pimientos tatemados/Queso tybo/Panceta/Salsa sriracha",
+    description: "Pan brioche / Carne desmenuzada / Pimientos tatemados / Queso tybo / Panceta / Salsa sriracha.",
   },
   {
     id: 8,
@@ -102,7 +102,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: polloAmericano,
-    description: "Pan brioche/Pollo tiernizado frito/Tomates frescos/Aros de cebolla/Queso cheddar",
+    description: "Pan brioche / Pollo tiernizado frito / Tomates frescos / Aros de cebolla / Queso cheddar.",
   },
   {
     id: 9,
@@ -112,7 +112,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: mediterraneo,
-    description: "Pan brioche/Pollo tiernizado frita/Lechuga/Tomate/Queso tybo/Jamon",
+    description: "Pan brioche / Pollo tiernizado frita / Lechuga / Tomate / Queso tybo / Jamon.",
   },
 ];
 
