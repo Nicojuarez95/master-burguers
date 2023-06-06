@@ -32,7 +32,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: lomoClasico,
-    description: "Lomo, lechuga, tomate, queso, jamon, huevo y pan arabe. Ideal para compartir!",
+    description: "Lomo / Lechuga / Tomate / Queso / Jamon / Huevo y pan arabe. Ideal para compartir!",
   },
   {
     id: 2,
@@ -42,7 +42,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: lomoRoque,
-    description: "Pan arabe, lomo, roquefort, cebolla caramelizada, lechuga, tomate.",
+    description: "Pan arabe / Lomo / Roquefort / Cebolla caramelizada / Lechuga / Tomate.",
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: lomoAmericano,
-    description: "Pan arabe/ lomo / chedar / cebolla caramelizada / tomate / huevo / barbacoa.",
+    description: "Pan arabe / Lomo / Cheddar / Cebolla caramelizada / Tomate / Huevo / Barbacoa.",
   },
   {
     id: 4,
@@ -82,7 +82,7 @@ const products = [
     rating: 4.5,
     quantity: 1,
     image: quesoazul,
-    description: "Pan brioche / Carne desmenuzada / queso Roquefort / hongos salteados / cebolla caramelizada.",
+    description: "Pan brioche / Carne desmenuzada / Queso Roquefort / Hongos salteados / cebolla caramelizada.",
   },
   {
     id: 7,
