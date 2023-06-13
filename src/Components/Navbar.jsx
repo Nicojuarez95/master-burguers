@@ -6,7 +6,8 @@ import { useStateValue } from '../stateProvider';
 import { useState } from 'react';
 import { Menu as MenuIcon, Home as HomeIcon, ShoppingCart as ShoppingCartIcon } from '@mui/icons-material';
 import { AppBar, Toolbar, IconButton, Drawer, List, ListItem, ListItemText, ListItemIcon } from '@mui/material';
-import logoNav from "../images/Captura_de_pantalla_2023-06-06_153250-removebg-preview.png"
+import logoNav from "../images/logomaster.png"
+import LunchDiningIcon from '@mui/icons-material/LunchDining';
 
 export default function Navbar() {
   const [{ basket }, dispatch] = useStateValue();
@@ -18,7 +19,7 @@ export default function Navbar() {
 
   return (
     <React.Fragment>
-      <AppBar position="fixed" sx={{ backgroundColor: 'rgba(120, 120, 120, 0.9)' }}>
+      <AppBar position="fixed" sx={{ backgroundColor: 'black' }}>
         <Toolbar>
           {/* Botón para abrir el menú hamburguesa */}
           <IconButton
@@ -50,9 +51,9 @@ export default function Navbar() {
 
       {/* Menú hamburguesa */}
       <Drawer anchor="left" open={open} onClose={handleDrawerToggle}>
-        <List style={{ backgroundColor:'#d34f4f', height:'100vh' }}>
+        <List style={{ backgroundColor:'gray', height:'100vh' }}>
           {/* Ícono y enlace para la página de inicio */}
-          <ListItem button component={Link} to="/">
+          <ListItem button component={Link} to="/inicio">
             <ListItemIcon>
               <HomeIcon style={{ color:'white' }}/>
             </ListItemIcon>
@@ -60,11 +61,11 @@ export default function Navbar() {
           </ListItem>
 
           {/* Ícono y enlace para el carrito */}
-          <ListItem button component={Link} to="/">
+          <ListItem button component={Link} to="/productos">
             <ListItemIcon>
-              <ShoppingCartIcon style={{ color:'white' }}/>
+              <LunchDiningIcon style={{ color:'white' }}/>
             </ListItemIcon>
-            <ListItemText primary="PRODUCTOS" style={{ color:'white' }}/>
+            <ListItemText primary="HAMBURGUESAS" style={{ color:'white' }}/>
           </ListItem>
         </List>
       </Drawer>
