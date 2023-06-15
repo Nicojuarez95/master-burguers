@@ -7,11 +7,9 @@ import SignIn from './Components/Signin';
 import SignUp from "./Components/Signup"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { auth } from './firebase';
-import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import { useStateValue } from './stateProvider.js';
 import { actionTypes } from './reducer.js';
-import Checkout from './Components/CheckoutForm/Checkout';
-import inicio from "./Components/Home"
+import Inicio from "./Components/Home"
 
 function App() {
   const [{user}, dispatch] = useStateValue()
@@ -37,9 +35,9 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/inicio" element={<inicio />} />
-          <Route path="/productos" element={<Products />} />
-          <Route path="/carrito" element={<CheckoutPage />} />
+          <Route path="/inicio" element={<Inicio />}/>
+          <Route path="/productos" element={<Products />}/>
+          <Route path="/carrito" element={<CheckoutPage />}/>
         </Routes>
       </div>
     </Router>

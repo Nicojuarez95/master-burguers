@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <React.Fragment>
-      <AppBar position="fixed" sx={{ backgroundColor: 'black' }}>
+      <AppBar position="fixed" style={{ backgroundColor: 'black' }}>
         <Toolbar>
           {/* Botón para abrir el menú hamburguesa */}
           <IconButton
@@ -32,7 +32,7 @@ export default function Navbar() {
             <MenuIcon />
           </IconButton>
 
-          <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }} className='nabvar'>
+          <Link to="/inicio" style={{ color: 'inherit', textDecoration: 'none' }} className='nabvar'>
             <img className='logo1' src={logoNav} alt="" />
           </Link>
 
