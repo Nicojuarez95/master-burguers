@@ -34,6 +34,19 @@
 #body{
     margin-top: 80px ;
 }
+.formtotal{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.totalProductos{
+    font-size: 1.5rem;
+}
+.totalCarrito{
+    font-size: 3rem;
+}
 .row{
     display: flex;
     width: 100%;
@@ -96,7 +109,7 @@ html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 100%;
     margin-top: 30px;
 }
 .carrito{
@@ -131,9 +144,18 @@ html{
 }
 .datos{
     color: #000000;
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
 }
+.field{
+    height: 55px;
+    width: 280px;
+    font-size: 2rem;
+}
+
 @media only screen and (max-width: 599px) {
+    .formtotal{
+        margin-top: 10px;
+    }
     .datos{
         font-size: 1rem;
     }

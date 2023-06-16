@@ -53,7 +53,7 @@ export default function CheckoutCart({ product: { id, name, image, price, rating
   };
 
   return (
-    <Card style={{ width: '350px' }} className="carta">
+    <Card style={{ width: '350px', display:'flex', flexDirection:'column', justifyContent:"space-between" }} className="carta">
       <CardHeader
         action={
           <Typography className={ClassNames.action} variant="p" color="textSecondary">

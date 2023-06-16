@@ -35,7 +35,7 @@ export default function Total() {
     const message = `¡Hola! Quiero encargar los siguientes productos:\n\n${productItems}\n\nTotal: ${totalPrice} (Incluyendo costo de envío)\n\nDirección de envío: ${shippingData.address};\n\nComentario: ${shippingData.comentario}`;
 
     const encodedMessage = encodeURIComponent(message);
-    const phoneNumber = '5493584405441'; // Reemplaza con el número de teléfono al que deseas enviar el mensaje
+    const phoneNumber = '5493584440337'; // Reemplaza con el número de teléfono al que deseas enviar el mensaje
     const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
 
     window.open(whatsappURL, '_blank');
@@ -69,7 +69,7 @@ export default function Total() {
             </div>
             <h5 className="totalProductos">TOTAL DE PRODUCTOS: {basket.reduce((total, item) => total + item.quantity, 0)}</h5>
             <h5 className="totalCarrito">{accounting.formatMoney(total, '$')}</h5>
-            <h6 style={{fontSize:".8rem", color:"black"}}>sin costo de envio</h6>
+            <h6 style={{fontSize:"1rem", color:"black"}}>sin costo de envio</h6>
             <Button
               type="submit"
               variant="contained"
