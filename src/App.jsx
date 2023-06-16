@@ -35,7 +35,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/inicio" element={<Inicio />}/>
+          <Route path="/" element={<Inicio />}/>
           <Route path="/productos" element={<Products />}/>
           <Route path="/carrito" element={<CheckoutPage />}/>
         </Routes>

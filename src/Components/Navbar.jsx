@@ -32,7 +32,7 @@ export default function Navbar() {
             <MenuIcon />
           </IconButton>
 
-          <Link to="/inicio" style={{ color: 'inherit', textDecoration: 'none' }} className='nabvar'>
+          <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }} className='nabvar'>
             <img className='logo1' src={logoNav} alt="" />
           </Link>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
       <Drawer anchor="left" open={open} onClose={handleDrawerToggle}>
         <List style={{ backgroundColor:'gray', height:'100vh' }}>
           {/* Ícono y enlace para la página de inicio */}
-          <ListItem button component={Link} to="/inicio">
+          <ListItem button component={Link} to="/">
             <ListItemIcon>
               <HomeIcon style={{ color:'white' }}/>
             </ListItemIcon>
