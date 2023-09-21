@@ -35,7 +35,7 @@ export default function Total() {
     const message = `¡Hola! Quiero encargar los siguientes productos:\n\n${productItems}\n\nTotal: ${totalPrice} (Incluyendo costo de envío)\n\nDirección de envío: ${shippingData.address};\n\nComentario: ${shippingData.comentario}`;
 
     const encodedMessage = encodeURIComponent(message);
-    const phoneNumber = '5493584834859'; // Reemplaza con el número de teléfono al que deseas enviar el mensaje
+    const phoneNumber = '5493584834859'; 
     const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
 
     window.open(whatsappURL, '_blank');
