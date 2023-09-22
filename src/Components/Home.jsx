@@ -189,7 +189,6 @@ export default function Home() {
             <p>Consulte nuestro horario de apertura y la dirección de la ubicación a continuación.</p>
         </section>
 
-        
         <footer>
            
             <div class="container">
