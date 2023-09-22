@@ -42,7 +42,6 @@ export default function Home() {
         <section id="block">
             <div class="container">
 
-                
                 <div class="row">
                     <div class="col-sm-8">
                         <div class="feature">
