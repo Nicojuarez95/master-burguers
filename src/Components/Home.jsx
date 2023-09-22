@@ -153,7 +153,6 @@ export default function Home() {
                         
                     </div>
                 </div>
-
                
                 <div class="row forth_sec" id='servicios'>
                     <div class="col-sm-4">
