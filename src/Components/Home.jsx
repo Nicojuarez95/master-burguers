@@ -70,7 +70,6 @@ export default function Home() {
                     </div>
                 </div>
 
-                
                 <div class="row">
                     <div class="col-md-6">
                         <div class="classic">
