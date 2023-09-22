@@ -227,8 +227,6 @@ export default function Home() {
                     <div class="footer-copyright">
                                 <p class="wow fadeInRight" data-wow-duration="1s">
                                     Hecho por 
-                                    
-                                    
                                     <a target="_blank" href="http://bootstrapthemes.co">Proyecto Web Development</a> <br /> 
                                     2023. Todos los derechos reservados
                                 </p>
