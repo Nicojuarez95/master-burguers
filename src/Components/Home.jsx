@@ -37,7 +37,6 @@ export default function Home() {
             </div>
             {/* <p class="caption">No nos comparamos</p> */}
         </header>
-
         
         <section id="block">
             <div class="container">
