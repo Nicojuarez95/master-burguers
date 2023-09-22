@@ -183,7 +183,6 @@ export default function Home() {
                 </div>
             </div>
         </section>
-
         
         <section id="lock">
             <h2>SIRVIENDO MÁS QUE HAMBURGUESAS DESDE 2019</h2>
