@@ -190,7 +190,6 @@ export default function Home() {
         </section>
 
         <footer>
-           
             <div class="container">
                 <div class="row">
 
