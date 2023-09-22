@@ -230,7 +230,7 @@ export default function Home() {
                                     <a target="_blank" href="http://bootstrapthemes.co">Proyecto Web Development</a> <br /> 
                                     2023. Todos los derechos reservados
                                 </p>
-                            </div>
+                    </div>
 
                 </div>
             </div>
